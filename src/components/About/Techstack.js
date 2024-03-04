@@ -12,6 +12,8 @@ import {
   DiGithub,
   DiAws,
   DiMysql,
+  DiHtml5,
+  DiCss3
 } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
 import {
@@ -28,7 +30,17 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      
+
+    <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+        <h6>HTML</h6>
+        
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <h6>CSS</h6>
+        
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
         <h6>Javascript</h6>
